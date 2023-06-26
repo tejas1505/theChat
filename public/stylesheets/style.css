@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Roboto:wght@400&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-container{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 10px auto;
+    padding: 18px;
+    background-image: linear-gradient(rgba(255, 168, 102, 0.955), rgb(255, 86, 216));
+    border-radius: 20px;
+    box-shadow: 1px 3px 9px 1px #ccc;
+}
+
+.container{
+    /* border: 1px solid blue; */
+    /* width: 50%; */
+    height: 450px;
+    overflow-y: auto;
+    background-color: #eaeaea;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.logo{
+    margin: 0px auto;
+    width: 68px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+    margin: 2px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.message.left{
+    /* border: 1px solid  green; */
+    margin: 15px;
+    width: max-content;
+    background-color: white;
+    border-radius: 10px 10px 10px 1px;
+    box-shadow: 1px 3px 9px 1px #ccc;
+    padding: 9px;
+    transition: 0.5s;
+}
+.message.right{
+    /* border: 1px solid  green; */
+    box-shadow: 1px 3px 9px 1px #ccc;
+    margin: 15px;
+    width: max-content;
+    background-color: white;
+    border-radius: 10px 10px 0px 10px;
+    padding: 9px;
+    transition: 0.5s;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+#send-container{
+    display: flex;
+}
+
+#messageInp{
+    width: -webkit-fill-available;
+    font-size: 16px;
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+}
+.btn{
+    font-size: 18px;
+    padding: 9px;
+    background-color: rgb(31, 180, 8);
+    border: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(5, 141, 95);
+}
+
+@media screen and (max-width:480px) {
+    .main-container{
+        width: fit-content;
+    }
+}

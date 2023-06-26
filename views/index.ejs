@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Chat</title>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="https://raw.github.com/gorbiz/mobile-console.log/master/console.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <span>
+      <img src="images/csuite_logo.png" alt="csuite" class="logo">
+      <h3>Welcome To theChat...</h3>
+    </span>
+    <div class="container">
+      <!-- <div class="message left">Tejas : Hey How Are You</div>
+      <div class="message right">Raiden : I'm Fine sir</div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" autocomplete="off">
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+<script src="javascripts/client.js"></script>
+
+</html>
