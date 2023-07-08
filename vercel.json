@@ -1,12 +1,12 @@
 {
     "builds": [{
-        "src": "www",
+        "src": "theChat/www",
         "use": "@vercel/node"
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "www"
+            "dest": "theChat/www"
         }
     ]
 }
