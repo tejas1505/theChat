@@ -6,7 +6,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/bin/www"
+            "dest": "./bin/www"
         }
     ]
 }
