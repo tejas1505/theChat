@@ -1,9 +1,12 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "vercel-sapper"
-    }
-  ]
+    "builds": [{
+        "src": "./bin/www",
+        "use": "@vercel/node"
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/bin/www"
+        }
+    ]
 }
