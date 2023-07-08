@@ -1,4 +1,4 @@
-const socket = io('http://192.168.137.1:3000', {transports : ['websocket', 'polling']});
+const socket = io('https://csuitechat.vercel.app', {transports : ['websocket', 'polling']});
 const form = document.getElementById('send-container');
 const messageInp = document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container');
